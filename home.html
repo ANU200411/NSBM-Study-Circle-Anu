@@ -1,0 +1,129 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>NSBM StudyCircle - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <a class="logo" href="#"><span></span>NSBM StudyCircle</a>
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">Materials</a>
+        <a href="#">Forum</a>
+        <a href="#">Study Groups</a>
+        <a href="#">About</a>
+    </div>
+    <div class="right">
+        <a href="#">Login</a>
+        <a href="#" class="btn">Register</a>
+    </div>
+</div>
+
+<div class="hero">
+    <div class="hero-inner">
+        <div class="hero-text">
+            <h1>Learn together.<br>Grow together.</h1>
+            <p>NSBM's student community for sharing notes, asking questions and building study groups across every module.</p>
+
+            <form class="hero-search" id="heroSearch" action="materials.php" method="get">
+                <input type="text" name="search" id="heroInput" placeholder="🔍 Search notes, subjects or questions...">
+                <button class="btn" type="submit">Search</button>
+            </form>
+
+            <div class="popular">Popular: <a href="#" class="pop">Java OOP</a> · <a href="#" class="pop">SQL Joins</a> · <a href="#" class="pop">PHP CRUD</a> · <a href="#" class="pop">Networking</a></div>
+        </div>
+
+        <div class="hero-panel">
+            <div class="mini"><b>📄 Database Notes</b><small>Week 4 · 4.8 ★</small></div>
+            <div class="mini"><b>❓ How to normalise?</b><small>9 answers</small></div>
+            <div class="mini"><b>👥 Web Dev Group</b><small>32 members</small></div>
+            <div class="mini"><b>📅 Study Session</b><small>Fri · 6:00 PM</small></div>
+        </div>
+    </div>
+</div>
+
+<div class="stats">
+    <div class="stats-inner">
+        <div><b id="students">...</b><small>Students</small></div>
+        <div><b id="materials">...</b><small>Study Materials</small></div>
+        <div><b id="answered">...</b><small>Questions Answered</small></div>
+        <div><b id="groups">...</b><small>Study Groups</small></div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Everything you need to study smarter</h2>
+    <p class="sub">Six tools in one platform</p>
+
+    <div class="grid3">
+        <div class="box feature">
+            <span class="ico">📚</span>
+            <h4>Share Study Notes</h4>
+            <p>Upload and download lecture notes, past papers and summaries by module.</p>
+        </div>
+        <div class="box feature">
+            <span class="ico blue">💬</span>
+            <h4>Q&amp;A Forum</h4>
+            <p>Ask academic questions and get answers from peers and tutors.</p>
+        </div>
+        <div class="box feature">
+            <span class="ico">👥</span>
+            <h4>Study Groups</h4>
+            <p>Create or join groups and schedule shared study sessions.</p>
+        </div>
+        <div class="box feature">
+            <span class="ico blue">⭐</span>
+            <h4>Rate &amp; Review</h4>
+            <p>Rate resources so the best material rises to the top.</p>
+        </div>
+        <div class="box feature">
+            <span class="ico">🔔</span>
+            <h4>Smart Alerts</h4>
+            <p>Get notified about new notes, answers and session reminders.</p>
+        </div>
+        <div class="box feature">
+            <span class="ico">🏆</span>
+            <h4>Contributor Points</h4>
+            <p>Earn badges and points for helping other students.</p>
+        </div>
+    </div>
+</div>
+
+<div class="subjects">
+    <div class="section">
+        <h2>Browse by subject</h2>
+        <p class="sub">Find what you need fast</p>
+
+        <div class="grid4" id="subjectList">Loading...
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Responsive on every device</h2>
+    <p class="sub">Desktop, tablet and mobile layouts</p>
+
+    <div class="phone">
+        <div class="bar">☰ StudyCircle</div>
+        <div class="line">Search notes...</div>
+        <div class="line">SQL Joins · PDF · 4.9 ★</div>
+        <div class="line">PHP CRUD Guide · PDF · 4.8 ★</div>
+    </div>
+</div>
+
+<div class="footer">
+    <div>© 2026 NSBM Green University · Faculty of Computing</div>
+    <div class="links">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy</a>
+        <a href="#">Help</a>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
